@@ -28,7 +28,6 @@ public class WKBoolean {
 	 */
 	public static int getNotWKBoolean(int value){
 		return convert2WKBoolean(1==value);
-		
 	}
 	
 }
