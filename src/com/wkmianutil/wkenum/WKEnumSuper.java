@@ -1,4 +1,4 @@
-package com.javautil.wkenum;
+package com.wkmianutil.wkenum;
 /**
  *
  * @author dwk

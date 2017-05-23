@@ -1,4 +1,4 @@
-package com.javautil.wkenum;
+package com.wkmianutil.wkenum;
 
 import java.util.List;
 import java.util.Map;
