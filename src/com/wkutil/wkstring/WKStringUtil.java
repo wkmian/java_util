@@ -13,7 +13,7 @@ public class WKStringUtil {
 	 * @return
 	 */
 	public static boolean isNull(String value){
-		return null==value;
+	    return null==value;
 	}
 	
 	/**
@@ -22,7 +22,7 @@ public class WKStringUtil {
 	 * @return true空字符串
 	 */
 	public static boolean isEmpty(String value){
-		return isNull(value)||value.length()==0;
+	    return isNull(value)||value.length()==0;
 	}
 	
 	/**
@@ -32,7 +32,7 @@ public class WKStringUtil {
 	 * @return
 	 */
 	public static String ifNull(String str){
-		return ifNull(str, EMPTY_STRING);
+	    return ifNull(str, EMPTY_STRING);
 	}
 	
 	/**
@@ -43,7 +43,7 @@ public class WKStringUtil {
 	 * @return
 	 */
 	public static String ifNull(String str,String toStr){
-		return null==str?toStr:str;
+	    return null==str?toStr:str;
 	}
 	
 
