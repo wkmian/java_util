@@ -12,7 +12,7 @@ public class WKStringUtil {
 	 * @param value
 	 * @return
 	 */
-	public static boolean isNull(String value){
+    public static boolean isNull(String value){
 	    return null==value;
 	}
 	
@@ -31,9 +31,9 @@ public class WKStringUtil {
 	 * @param str 待检测字符串
 	 * @return
 	 */
-	public static String ifNull(String str){
+    public static String ifNull(String str){
 	    return ifNull(str, EMPTY_STRING);
-	}
+    }
 	
 	/**
 	 * 如果字符串是<code>null</code>则返回<code>toStr</code>
@@ -42,9 +42,9 @@ public class WKStringUtil {
 	 * @param toStr 如果  null==str 替换 str
 	 * @return
 	 */
-	public static String ifNull(String str,String toStr){
+    public static String ifNull(String str,String toStr){
 	    return null==str?toStr:str;
-	}
+	    }
 	
 
 	/**
@@ -58,7 +58,7 @@ public class WKStringUtil {
             StringBuilder sb = new StringBuilder();
             for (String string : args) {
                 sb.append(string);
-        	}
+            }
             str = sb.toString();
         }
         return str;
