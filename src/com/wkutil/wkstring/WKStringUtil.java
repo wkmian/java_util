@@ -13,7 +13,7 @@ public class WKStringUtil {
 	 * @return
 	 */
     public static boolean isNull(String value){
-	    return null==value;
+        return null==value;
 	}
 	
 	/**
@@ -32,7 +32,7 @@ public class WKStringUtil {
 	 * @return
 	 */
     public static String ifNull(String str){
-	    return ifNull(str, EMPTY_STRING);
+        return ifNull(str, EMPTY_STRING);
     }
 	
 	/**
@@ -43,8 +43,8 @@ public class WKStringUtil {
 	 * @return
 	 */
     public static String ifNull(String str,String toStr){
-	    return null==str?toStr:str;
-	    }
+        return null==str?toStr:str;
+    }
 	
 
 	/**
@@ -63,7 +63,5 @@ public class WKStringUtil {
         }
         return str;
 	}
-	
-	
 	
 }
