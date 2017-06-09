@@ -14,16 +14,16 @@ public class WKStringUtil {
 	 */
     public static boolean isNull(String value){
         return null==value;
-	}
+    }
 	
     /**
      * 是否是空值 <code>null</code> or <code>""</code> 都视为空值
      * @param value 待检测的字符串
      * @return true空字符串
      */
-	public static boolean isEmpty(String value){
-	    return isNull(value)||value.length()==0;
-	}
+    public static boolean isEmpty(String value){
+        return isNull(value)||value.length()==0;
+    }
 	
     /**
      * 如果字符串是<code>null</code>则返回<code>""</code>
@@ -52,7 +52,7 @@ public class WKStringUtil {
      * @param args 要拼接的字符串数组
      * @return
      */
-	public static String join(String... args){
+    public static String join(String... args){
         String str = null;
         if(null!=args&&args.length>0){
             StringBuilder sb = new StringBuilder();
@@ -62,6 +62,6 @@ public class WKStringUtil {
             str = sb.toString();
         }
         return str;
-	}
+    }
 	
 }
