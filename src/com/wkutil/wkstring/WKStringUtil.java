@@ -5,7 +5,7 @@ package com.wkutil.wkstring;
  */
 public class WKStringUtil {
 	
-	private static final String EMPTY_STRING = "";
+    private static final String EMPTY_STRING = "";
 	
 	/**
 	 * 是否值为null
@@ -53,22 +53,17 @@ public class WKStringUtil {
 	 * @return
 	 */
 	public static String join(String... args){
-		String str = null;
-		if(null!=args&&args.length>0){
-			StringBuilder sb = new StringBuilder();
-			for (String string : args) {
-				sb.append(string);
-			}
-			str = sb.toString();
-		}
-		return str;
+        String str = null;
+        if(null!=args&&args.length>0){
+            StringBuilder sb = new StringBuilder();
+            for (String string : args) {
+                sb.append(string);
+        	}
+            str = sb.toString();
+        }
+        return str;
 	}
 	
-	
-	public static void main(String[] args) {
-		System.out.println(isNull(null));
-		System.out.println(isEmpty("asd"));
-	}
 	
 	
 }

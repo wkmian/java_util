@@ -22,7 +22,7 @@ public class WKBoolean {
 	 * 2017年5月23日 下午5:00:26
 	 */
 	public static int convert2WKBoolean(boolean value){
-		return value?TRUE:FALSE;
+	    return value?TRUE:FALSE;
 	}
 	
 	/**
@@ -33,7 +33,7 @@ public class WKBoolean {
 	 * 2017年5月23日 下午5:00:44
 	 */
 	public static int getNotWKBoolean(int value){
-		return convert2WKBoolean(1==value);
+	    return convert2WKBoolean(1==value);
 	}
 	
 	/**
@@ -44,7 +44,7 @@ public class WKBoolean {
 	 * 2017年5月31日 下午6:20:03
 	 */
 	public static boolean getBoolean(int value){
-		return 1==value;
+	    return 1==value;
 	}
 	
 	
