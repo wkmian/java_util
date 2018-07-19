@@ -1,9 +1,11 @@
-package com.wkutil.wkstring;
+package com.wk.util.wkstring;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.UUID;
+
+import com.wk.util.wkmonitoring.WKStopWatch;
 
 /**
  * 关于String的工具类
@@ -345,26 +347,20 @@ public class WKStringUtil {
         return sb.toString();
     }
     
-    
-    
-    
-    
     public static void main(String[] args) {
         String a = "ddddeeeeeeeeeeeeeeessssdssssssd";
         String b = "d";
         
-        long start  = System.currentTimeMillis();
+       WKStopWatch stopWatch = new WKStopWatch("trim 测试");
+       stopWatch.start("trim");       
         
         for (int i = 0; i < 100000; i++) {
             trim(a,b);
         }
         
-        long end  = System.currentTimeMillis();
-        
-        
-        System.out.println((end-start));
+        stopWatch.stop();
+        stopWatch.printInfo();
         
     }
-    
     
 }

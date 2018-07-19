@@ -1,4 +1,4 @@
-package com.wkutil.wkenum;
+package com.wk.util.wkenum;
 
 import java.util.ArrayList;
 import java.util.EnumSet;

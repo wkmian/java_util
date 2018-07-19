@@ -1,4 +1,4 @@
-package com.wkutil.wkdate;
+package com.wk.util.wkdate;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;
